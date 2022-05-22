@@ -1,5 +1,5 @@
-#ifndef HOLBERTONH
-#define HOLBERTONH
+#ifndef ALX
+#define ALX
 
 #include <stdarg.h>
 int _putchar(char c);
@@ -20,4 +20,4 @@ typedef struct code_format
 	int (*f)(va_list);
 } code_f;
 
-#endif /* HOLBERTONH */
+#endif /* ALX */
