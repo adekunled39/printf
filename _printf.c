@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * _printf - prints formatted data to stdout
@@ -36,14 +37,14 @@ written += structype(q, pa);
 
 else if (format[1] != '\0')
 {
-written += _putchar('%');
-written += _putchar(format[1]);
+written += putchar('%');
+written += putchar(format[1]);
 }
 
 else
 {
 
-written += _putchar('%');
+written += putchar('%');
 break;
 }
 
@@ -51,10 +52,10 @@ format += 2;
 }
 else
 {
-written += _putchar(format[0]);
+written += putchar(format[0]);
 format++;
 }
 }
-_putchar(-2);
+putchar(-2);
 return (written);
 }
