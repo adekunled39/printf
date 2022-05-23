@@ -25,7 +25,6 @@ int print_octal(va_list o);
 int print_x(va_list x);
 
 int print_X(va_list X);
-
 int print_rot13(va_list R);
 
 /**
@@ -43,4 +42,3 @@ int (*f)(va_list);
 } code_f;
 
 #endif /*ALX */
-© 2022 GitHub, Inc.
